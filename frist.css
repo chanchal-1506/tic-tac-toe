@@ -12,7 +12,7 @@ h1{
     font-size: 3rem;
 }
 .container{
-   margin-top: 4rem;
+   margin-top: 3rem;
    margin-bottom: 3rem;
     display: flex;
     justify-content: center;
@@ -47,7 +47,8 @@ h1{
 }
 
 #new-btn{
-    padding: 1%;
+    padding: 10px;
+    margin-bottom: 1rem;
     font-size: 1.25rem;
     background-color:violet;
     border-radius: 7px;
@@ -55,10 +56,11 @@ h1{
 
 #msg {
     color: brown;
-    font-size: 60px;
+    font-size: 40px;
 }
 .msg-container {
-    height: 100vmin;
+    font-size: 1.5rem;
+    /* height: 100vmin; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,15 +74,14 @@ h1{
 
 @media ( max-width:767px) {
     #msg {
-        font-size: 45px;
+        font-size: 35px;
     }
-    .msg-container{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 4px;
+    .container{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    h1{
+        font-size: 2.6rem;
     }
     
 }
@@ -102,19 +103,16 @@ h1{
     }
     #msg {
         margin-top: 0;
-        font-size: 40px;
+        font-size: 30px;
+        margin-bottom: 1rem;
     }
     .container{
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-         
-     }
-     .msg-container{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 4px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
+    h1{
+        font-size: 2.3rem;
+    }
+
+     
 }
